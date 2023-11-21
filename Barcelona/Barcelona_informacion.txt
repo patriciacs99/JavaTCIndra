@@ -1,0 +1,5 @@
+Ciudad: Barcelona
+Cantidad de habitantes: 400000
+Superficie: 130,00
+Proyección habitantes 2030: 360000
+Superficie ocupada: 10130,00
