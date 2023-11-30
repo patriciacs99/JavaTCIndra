@@ -7,7 +7,7 @@ pipeline {
                 script {
                     echo 'Compilando y ejecutando el programa Java...'
                     sh 'echo $PATH'  // Imprime las rutas en Jenkins
-                    sh 'which java'  // Encuentra la ubicación del ejecutable de Java
+                    sh 'which JAVA'  // Encuentra la ubicación del ejecutable de Java
 
                    
                 }
