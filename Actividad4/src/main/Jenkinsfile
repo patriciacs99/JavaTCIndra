@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                   echo 'Compilando el programa Java...'
+                   sh 'javac ControlCalidadEmpleados.java'
+                }
+            }
+        }
+
+        stage('Run ControlCalidadEmpleados') {
+            steps {
+                script {
+                    def cmd = "java ControlCalidadEmpleados"
+                    def process = cmd.execute()
+                    process.waitFor()
+
+                    def output = process.in.text
+                    echo "Resultado del programa:"
+                    echo output
+                }
+            }
+        }
+    }
+}
