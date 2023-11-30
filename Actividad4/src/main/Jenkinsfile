@@ -6,8 +6,8 @@ pipeline {
             steps {
                 script {
                     echo 'Compilando y ejecutando el programa Java...'
-                    sh '"C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\javac" ControlCalidadEmpleados.java'
-                    sh '"C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java" ControlCalidadEmpleados'
+                    sh '"C:\\Program Files\\Java\\jdk-17\\bin\\javac" ControlCalidadEmpleados.java'
+                    sh '"C:\\Program Files\\Java\\jdk-17\\bin\\java" ControlCalidadEmpleados'
                 }
             }
         }
