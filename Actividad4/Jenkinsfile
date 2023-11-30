@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Compilando y ejecutando el programa Java...'
-                    sh 'javac src/main/ControlCalidadEmpleados.java'
+                    sh 'javac ./src/main/ControlCalidadEmpleados.java'
                     sh 'java ControlCalidadEmpleados'
                 }
             }
