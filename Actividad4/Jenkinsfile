@@ -6,8 +6,8 @@ pipeline {
             steps {
                 script {
                     echo 'Compiling and running ControlCalidadEmpleados.java'
-                    sh 'javac ControlCalidadEmpleados.java'
-                    sh 'java ControlCalidadEmpleados'
+                    sh 'javac /src/main/ControlCalidadEmpleados.java'
+                    sh 'java /src/main/ControlCalidadEmpleados'
                 }
             }
         }
