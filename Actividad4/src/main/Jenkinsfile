@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                    echo 'Compilando el programa Java...'
-                   sh 'javac ControlCalidadEmpleados.java'
+                   sh 'javac ./ControlCalidadEmpleados.java'
                 }
             }
         }
@@ -14,7 +14,7 @@ pipeline {
         stage('Run ControlCalidadEmpleados') {
             steps {
                 script {
-                    def cmd = "java ControlCalidadEmpleados"
+                    def cmd = "java ./ControlCalidadEmpleados"
                     def process = cmd.execute()
                     process.waitFor()
 
