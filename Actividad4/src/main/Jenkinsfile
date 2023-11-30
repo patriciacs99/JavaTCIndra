@@ -6,8 +6,10 @@ pipeline {
             steps {
                 script {
                     echo 'Compilando y ejecutando el programa Java...'
-                    sh 'javac ControlCalidadEmpleados.java'
-                    sh 'java ControlCalidadEmpleados'
+                    sh 'echo $PATH'  // Imprime las rutas en Jenkins
+                    sh 'which java'  // Encuentra la ubicación del ejecutable de Java
+
+                   
                 }
             }
         }
