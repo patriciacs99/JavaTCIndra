@@ -7,8 +7,7 @@ pipeline {
                 script {
                     echo 'Compiling and running ControlCalidadEmpleados.java'
                     sh 'javac ./src/main/ControlCalidadEmpleados.java'
-                    sh 'java ./src/main/ControlCalidadEmpleados'
-                    def output = sh(script: 'java TuProgramaJava', returnStdout: true).trim()
+                    def output = sh(script: 'java ./src/main/ControlCalidadEmpleados', returnStdout: true).trim()
                     echo "Salida del programa: ${output}"
                 }
             }
