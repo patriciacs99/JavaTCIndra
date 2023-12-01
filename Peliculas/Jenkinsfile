@@ -8,15 +8,15 @@ echo 'La informacion de la pelicula es:'
 echo 'La informacion de la pelicula es:'
  echo Titulo Avengers: Endgame    Espectadores 45000     Salas 4500    GananciaBruta 2.025E9
 echo 'La informacion de la pelicula es:'
- echo Titulo Avatar: The Way of Water    Espectadores 40000     Salas 4000    GananciaBruta 1.6E9
+ echo Titulo Avatar The Way of Water    Espectadores 40000     Salas 4000    GananciaBruta 1.6E9
 echo 'La informacion de la pelicula es:'
  echo Titulo Titanic    Espectadores 350000     Salas 3500    GananciaBruta -6.34901888E8
 echo 'La informacion de la pelicula es:'
- echo Titulo Star Wars: Episode VII - The Force Awakens    Espectadores 300000     Salas 3000    GananciaBruta 4.10065408E8
+ echo Titulo Star Wars Episode VII - The Force Awakens    Espectadores 300000     Salas 3000    GananciaBruta 4.10065408E8
 echo 'La informacion de la pelicula es:'
- echo Titulo Avengers: Infinity War    Espectadores 250000     Salas 2500    GananciaBruta 1.955032704E9
+ echo Titulo Avengers Infinity War    Espectadores 250000     Salas 2500    GananciaBruta 1.955032704E9
 echo 'La informacion de la pelicula es:'
- echo Titulo Spider-Man: No Way Home    Espectadores 200000     Salas 2000    GananciaBruta -2.94967296E8
+ echo Titulo Spider-Man No Way Home    Espectadores 200000     Salas 2000    GananciaBruta -2.94967296E8
 echo 'La informacion de la pelicula es:'
  echo Titulo Jurassic World    Espectadores 150000     Salas 1500    GananciaBruta -2.044967296E9
 echo 'La informacion de la pelicula es:'
