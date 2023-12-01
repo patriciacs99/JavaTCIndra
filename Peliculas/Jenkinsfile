@@ -1,0 +1,19 @@
+pipeline {
+agent any
+stages {
+stage('Muestro informacion') {
+steps {
+echo 'La informacion de la pelicula es:Titulo Avatar    Espectadores 50000     Salas 5000    GananciaBruta -1.794967296E9'
+echo 'La informacion de la pelicula es:Titulo Avengers Endgame    Espectadores 45000     Salas 4500    GananciaBruta 2.025E9'
+echo 'La informacion de la pelicula es:Titulo Avatar The Way of Water    Espectadores 40000     Salas 4000    GananciaBruta 1.6E9'
+echo 'La informacion de la pelicula es:Titulo Titanic    Espectadores 350000     Salas 3500    GananciaBruta -6.34901888E8'
+echo 'La informacion de la pelicula es:Titulo Star Wars Episode VII  The Force Awakens    Espectadores 300000     Salas 3000    GananciaBruta 4.10065408E8'
+echo 'La informacion de la pelicula es:Titulo Avengers Infinity War    Espectadores 250000     Salas 2500    GananciaBruta 1.955032704E9'
+echo 'La informacion de la pelicula es:Titulo Spider-Man No Way Home    Espectadores 200000     Salas 2000    GananciaBruta -2.94967296E8'
+echo 'La informacion de la pelicula es:Titulo Jurassic World    Espectadores 150000     Salas 1500    GananciaBruta -2.044967296E9'
+echo 'La informacion de la pelicula es:Titulo The Lion King    Espectadores 100000     Salas 1000    GananciaBruta 1.0E9'
+echo 'La informacion de la pelicula es:Titulo The Avengers    Espectadores 50000     Salas 500    GananciaBruta 2.5E8'
+}
+}
+}
+}
