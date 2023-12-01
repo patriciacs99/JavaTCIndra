@@ -4,25 +4,25 @@ stages {
 stage('Muestro informacion') {
 steps {
 echo 'La informacion de la pelicula es:'
- echo Titulo Avatar, espectadores 50000, salas 5000, gananciaBruta -1.794967296E9
+ echo Titulo Avatar    Espectadores 50000     Salas 5000    GananciaBruta -1.794967296E9
 echo 'La informacion de la pelicula es:'
- echo Titulo Avengers: Endgame, espectadores 45000, salas 4500, gananciaBruta 2.025E9
+ echo Titulo Avengers: Endgame    Espectadores 45000     Salas 4500    GananciaBruta 2.025E9
 echo 'La informacion de la pelicula es:'
- echo Titulo Avatar: The Way of Water, espectadores 40000, salas 4000, gananciaBruta 1.6E9
+ echo Titulo Avatar: The Way of Water    Espectadores 40000     Salas 4000    GananciaBruta 1.6E9
 echo 'La informacion de la pelicula es:'
- echo Titulo Titanic, espectadores 350000, salas 3500, gananciaBruta -6.34901888E8
+ echo Titulo Titanic    Espectadores 350000     Salas 3500    GananciaBruta -6.34901888E8
 echo 'La informacion de la pelicula es:'
- echo Titulo Star Wars: Episode VII - The Force Awakens, espectadores 300000, salas 3000, gananciaBruta 4.10065408E8
+ echo Titulo Star Wars: Episode VII - The Force Awakens    Espectadores 300000     Salas 3000    GananciaBruta 4.10065408E8
 echo 'La informacion de la pelicula es:'
- echo Titulo Avengers: Infinity War, espectadores 250000, salas 2500, gananciaBruta 1.955032704E9
+ echo Titulo Avengers: Infinity War    Espectadores 250000     Salas 2500    GananciaBruta 1.955032704E9
 echo 'La informacion de la pelicula es:'
- echo Titulo Spider-Man: No Way Home, espectadores 200000, salas 2000, gananciaBruta -2.94967296E8
+ echo Titulo Spider-Man: No Way Home    Espectadores 200000     Salas 2000    GananciaBruta -2.94967296E8
 echo 'La informacion de la pelicula es:'
- echo Titulo Jurassic World, espectadores 150000, salas 1500, gananciaBruta -2.044967296E9
+ echo Titulo Jurassic World    Espectadores 150000     Salas 1500    GananciaBruta -2.044967296E9
 echo 'La informacion de la pelicula es:'
- echo Titulo The Lion King, espectadores 100000, salas 1000, gananciaBruta 1.0E9
+ echo Titulo The Lion King    Espectadores 100000     Salas 1000    GananciaBruta 1.0E9
 echo 'La informacion de la pelicula es:'
- echo Titulo The Avengers, espectadores 50000, salas 500, gananciaBruta 2.5E8
+ echo Titulo The Avengers    Espectadores 50000     Salas 500    GananciaBruta 2.5E8
 }
 }
 }
